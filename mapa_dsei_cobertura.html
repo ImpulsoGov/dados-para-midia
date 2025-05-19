@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd3ad6d87a3c9ff13edbb8cc9683086c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bd3ad6d87a3c9ff13edbb8cc9683086c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bd3ad6d87a3c9ff13edbb8cc9683086c = L.map(
+                "map_bd3ad6d87a3c9ff13edbb8cc9683086c",
+                {
+                    center: [-10.0, -55.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_de761909773011be4ad3e927ced9fd10 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_de761909773011be4ad3e927ced9fd10.addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+            var circle_marker_c9e51a318cb9de23a53ab47de6a6b92e = L.circleMarker(
+                [-10.9, -37.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_df9504ef2ad4967d3b3a0db972af4055 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7eb4e3392375c5a74271517cf45e3e28 = $(`<div id="html_7eb4e3392375c5a74271517cf45e3e28" style="width: 100.0%; height: 100.0%;"><b>ALAGOAS E SERGIPE</b><br>Região: Nordeste<br>Pré-natal: 73.4%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_df9504ef2ad4967d3b3a0db972af4055.setContent(html_7eb4e3392375c5a74271517cf45e3e28);
+            
+        
+
+        circle_marker_c9e51a318cb9de23a53ab47de6a6b92e.bindPopup(popup_df9504ef2ad4967d3b3a0db972af4055)
+        ;
+
+        
+    
+    
+            var circle_marker_1275cf66000073b1f8ae96807c8ae752 = L.circleMarker(
+                [-3.2, -52.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_d54f4c2972035f4e7091658670c839ba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cec4ffe2391d0602601ad67144e3862c = $(`<div id="html_cec4ffe2391d0602601ad67144e3862c" style="width: 100.0%; height: 100.0%;"><b>ALTAMIRA</b><br>Região: Norte<br>Pré-natal: 72.8%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_d54f4c2972035f4e7091658670c839ba.setContent(html_cec4ffe2391d0602601ad67144e3862c);
+            
+        
+
+        circle_marker_1275cf66000073b1f8ae96807c8ae752.bindPopup(popup_d54f4c2972035f4e7091658670c839ba)
+        ;
+
+        
+    
+    
+            var circle_marker_9accef9fdd39024cd614671f65c62691 = L.circleMarker(
+                [-7.6, -72.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_ebeae54c49a0adf4503d4b66f98f879f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10a174866c759bbe2e58c620098ce4a6 = $(`<div id="html_10a174866c759bbe2e58c620098ce4a6" style="width: 100.0%; height: 100.0%;"><b>ALTO RIO JURUÁ</b><br>Região: Norte<br>Pré-natal: 7.7%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_ebeae54c49a0adf4503d4b66f98f879f.setContent(html_10a174866c759bbe2e58c620098ce4a6);
+            
+        
+
+        circle_marker_9accef9fdd39024cd614671f65c62691.bindPopup(popup_ebeae54c49a0adf4503d4b66f98f879f)
+        ;
+
+        
+    
+    
+            var circle_marker_9fbd9ac1b591d56c172ae0955f032325 = L.circleMarker(
+                [0.6, -65.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_049fa45dc75a1d76361ea26bc4dd47bb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_246d714d75e71aff48fe0841fa842215 = $(`<div id="html_246d714d75e71aff48fe0841fa842215" style="width: 100.0%; height: 100.0%;"><b>ALTO RIO NEGRO</b><br>Região: Norte<br>Pré-natal: 25.2%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_049fa45dc75a1d76361ea26bc4dd47bb.setContent(html_246d714d75e71aff48fe0841fa842215);
+            
+        
+
+        circle_marker_9fbd9ac1b591d56c172ae0955f032325.bindPopup(popup_049fa45dc75a1d76361ea26bc4dd47bb)
+        ;
+
+        
+    
+    
+            var circle_marker_6eeedc06c10d03e585f361063e0979d3 = L.circleMarker(
+                [-3.5, -68.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_6662d4a11d3d4b5bc0d6993eefef50e3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b70aecaf429c17dcefea4dc089817ef = $(`<div id="html_9b70aecaf429c17dcefea4dc089817ef" style="width: 100.0%; height: 100.0%;"><b>ALTO RIO SOLIMÕES</b><br>Região: Norte<br>Pré-natal: 71.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_6662d4a11d3d4b5bc0d6993eefef50e3.setContent(html_9b70aecaf429c17dcefea4dc089817ef);
+            
+        
+
+        circle_marker_6eeedc06c10d03e585f361063e0979d3.bindPopup(popup_6662d4a11d3d4b5bc0d6993eefef50e3)
+        ;
+
+        
+    
+    
+            var circle_marker_2f97f74838f2796f7329995eb72f7234 = L.circleMarker(
+                [1.4, -52.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_3f83c18cc08eab57e0a7fcb212f11605 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bb9d55f18f22036d242c9652d9ed824c = $(`<div id="html_bb9d55f18f22036d242c9652d9ed824c" style="width: 100.0%; height: 100.0%;"><b>AMAPÁ E NORTE DO PARÁ</b><br>Região: Norte<br>Pré-natal: 32.3%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_3f83c18cc08eab57e0a7fcb212f11605.setContent(html_bb9d55f18f22036d242c9652d9ed824c);
+            
+        
+
+        circle_marker_2f97f74838f2796f7329995eb72f7234.bindPopup(popup_3f83c18cc08eab57e0a7fcb212f11605)
+        ;
+
+        
+    
+    
+            var circle_marker_73117528c330166888c5ed3968bf2168 = L.circleMarker(
+                [-12.0, -51.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_9b32ca95265ced932cfa091173b941d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ce848fdfd1b1e6c0110fe6a04b76889 = $(`<div id="html_3ce848fdfd1b1e6c0110fe6a04b76889" style="width: 100.0%; height: 100.0%;"><b>ARAGUAIA</b><br>Região: Centro-Oeste<br>Pré-natal: 87.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_9b32ca95265ced932cfa091173b941d8.setContent(html_3ce848fdfd1b1e6c0110fe6a04b76889);
+            
+        
+
+        circle_marker_73117528c330166888c5ed3968bf2168.bindPopup(popup_9b32ca95265ced932cfa091173b941d8)
+        ;
+
+        
+    
+    
+            var circle_marker_576008046bc3717a4ecc19d98cec5126 = L.circleMarker(
+                [-12.9, -38.5],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_1606ea490fffd21fd254239f2f7740fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad76a295b97274ca8994c098e11605a0 = $(`<div id="html_ad76a295b97274ca8994c098e11605a0" style="width: 100.0%; height: 100.0%;"><b>BAHIA</b><br>Região: Nordeste<br>Pré-natal: 59.6%<br>Ultrassom: 2.0%</div>`)[0];
+                popup_1606ea490fffd21fd254239f2f7740fe.setContent(html_ad76a295b97274ca8994c098e11605a0);
+            
+        
+
+        circle_marker_576008046bc3717a4ecc19d98cec5126.bindPopup(popup_1606ea490fffd21fd254239f2f7740fe)
+        ;
+
+        
+    
+    
+            var circle_marker_d97912a5d6bae8f045e969f0159c7278 = L.circleMarker(
+                [-4.3, -38.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_8fbf88b42c37ad53730224e8f54562b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2695b1e3630214a63d65c3146b80c41e = $(`<div id="html_2695b1e3630214a63d65c3146b80c41e" style="width: 100.0%; height: 100.0%;"><b>CEARÁ</b><br>Região: Nordeste<br>Pré-natal: 85.2%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_8fbf88b42c37ad53730224e8f54562b9.setContent(html_2695b1e3630214a63d65c3146b80c41e);
+            
+        
+
+        circle_marker_d97912a5d6bae8f045e969f0159c7278.bindPopup(popup_8fbf88b42c37ad53730224e8f54562b9)
+        ;
+
+        
+    
+    
+            var circle_marker_bf14b78598ab0d5dfde8bbfbbeda988b = L.circleMarker(
+                [-15.6, -56.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_f2d35509a5efdb9e48d8454ea661e81c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eced3bb13a6a68351d608c579932dc8a = $(`<div id="html_eced3bb13a6a68351d608c579932dc8a" style="width: 100.0%; height: 100.0%;"><b>CUIABÁ</b><br>Região: Centro-Oeste<br>Pré-natal: 65.2%<br>Ultrassom: 4.8%</div>`)[0];
+                popup_f2d35509a5efdb9e48d8454ea661e81c.setContent(html_eced3bb13a6a68351d608c579932dc8a);
+            
+        
+
+        circle_marker_bf14b78598ab0d5dfde8bbfbbeda988b.bindPopup(popup_f2d35509a5efdb9e48d8454ea661e81c)
+        ;
+
+        
+    
+    
+            var circle_marker_0bf19cc71b3499c3064a9a033326636b = L.circleMarker(
+                [-1.7, -47.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_6d4cd3047db1a0c216e8a504a9b877bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83aa1c372bb797a00d19177699363a94 = $(`<div id="html_83aa1c372bb797a00d19177699363a94" style="width: 100.0%; height: 100.0%;"><b>GUAMÁ-TOCANTINS</b><br>Região: Norte<br>Pré-natal: 49.9%<br>Ultrassom: 1.2%</div>`)[0];
+                popup_6d4cd3047db1a0c216e8a504a9b877bf.setContent(html_83aa1c372bb797a00d19177699363a94);
+            
+        
+
+        circle_marker_0bf19cc71b3499c3064a9a033326636b.bindPopup(popup_6d4cd3047db1a0c216e8a504a9b877bf)
+        ;
+
+        
+    
+    
+            var circle_marker_a7a7600828f0d77089e0ff91d12445fc = L.circleMarker(
+                [-29.9, -50.3],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_3ebae7399edf6f3d4820ecd3f0d251ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff8883e46eb3ed8eca005e939e56c75b = $(`<div id="html_ff8883e46eb3ed8eca005e939e56c75b" style="width: 100.0%; height: 100.0%;"><b>INTERIOR SUL</b><br>Região: Sul<br>Pré-natal: 73.6%<br>Ultrassom: 4.7%</div>`)[0];
+                popup_3ebae7399edf6f3d4820ecd3f0d251ef.setContent(html_ff8883e46eb3ed8eca005e939e56c75b);
+            
+        
+
+        circle_marker_a7a7600828f0d77089e0ff91d12445fc.bindPopup(popup_3ebae7399edf6f3d4820ecd3f0d251ef)
+        ;
+
+        
+    
+    
+            var circle_marker_b4a85314fb96703b2f73aca987e16693 = L.circleMarker(
+                [-10.0, -53.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_f1261bfdb04b1421a2fca8cc12d5bfec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d37347d22e65f813c5ee43b71e245d0 = $(`<div id="html_6d37347d22e65f813c5ee43b71e245d0" style="width: 100.0%; height: 100.0%;"><b>KAIAPÓ DO MATO GROSSO</b><br>Região: Centro-Oeste<br>Pré-natal: 90.9%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_f1261bfdb04b1421a2fca8cc12d5bfec.setContent(html_6d37347d22e65f813c5ee43b71e245d0);
+            
+        
+
+        circle_marker_b4a85314fb96703b2f73aca987e16693.bindPopup(popup_f1261bfdb04b1421a2fca8cc12d5bfec)
+        ;
+
+        
+    
+    
+            var circle_marker_39487ca3268db03129cf177456dadce6 = L.circleMarker(
+                [-5.3, -51.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_a490be58e3c14fb01617f2748d842147 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b26ee24d471ac9754d25c54fd792e94 = $(`<div id="html_7b26ee24d471ac9754d25c54fd792e94" style="width: 100.0%; height: 100.0%;"><b>KAIAPÓ DO PARÁ</b><br>Região: Norte<br>Pré-natal: 87.2%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_a490be58e3c14fb01617f2748d842147.setContent(html_7b26ee24d471ac9754d25c54fd792e94);
+            
+        
+
+        circle_marker_39487ca3268db03129cf177456dadce6.bindPopup(popup_a490be58e3c14fb01617f2748d842147)
+        ;
+
+        
+    
+    
+            var circle_marker_56ca7962d9dee932b6a3d833f940f9fc = L.circleMarker(
+                [2.8, -60.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_f0ed888eb81737ba8b3063bbe46f9e58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01fac5ee32132ca2f00f6a2433ef67c5 = $(`<div id="html_01fac5ee32132ca2f00f6a2433ef67c5" style="width: 100.0%; height: 100.0%;"><b>LESTE DE RORAIMA</b><br>Região: Norte<br>Pré-natal: 13.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_f0ed888eb81737ba8b3063bbe46f9e58.setContent(html_01fac5ee32132ca2f00f6a2433ef67c5);
+            
+        
+
+        circle_marker_56ca7962d9dee932b6a3d833f940f9fc.bindPopup(popup_f0ed888eb81737ba8b3063bbe46f9e58)
+        ;
+
+        
+    
+    
+            var circle_marker_fe68299990aa4f128dc49514829bd2e7 = L.circleMarker(
+                [-27.6, -48.6],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_83885c09e5928f2be615e2d7bc42b3e5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_47af4ff516afdc3cd326dad8b5dc148c = $(`<div id="html_47af4ff516afdc3cd326dad8b5dc148c" style="width: 100.0%; height: 100.0%;"><b>LITORAL SUL</b><br>Região: Sul<br>Pré-natal: 64.8%<br>Ultrassom: 18.5%</div>`)[0];
+                popup_83885c09e5928f2be615e2d7bc42b3e5.setContent(html_47af4ff516afdc3cd326dad8b5dc148c);
+            
+        
+
+        circle_marker_fe68299990aa4f128dc49514829bd2e7.bindPopup(popup_83885c09e5928f2be615e2d7bc42b3e5)
+        ;
+
+        
+    
+    
+            var circle_marker_f27097799b7c652ce0ee4ae43883a51c = L.circleMarker(
+                [-3.1, -60.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_ddfa1c4de983c77ff4187af18c427bc8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c01c17088f4025762a65e5d544305ef = $(`<div id="html_4c01c17088f4025762a65e5d544305ef" style="width: 100.0%; height: 100.0%;"><b>MANAUS</b><br>Região: Norte<br>Pré-natal: 70.3%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_ddfa1c4de983c77ff4187af18c427bc8.setContent(html_4c01c17088f4025762a65e5d544305ef);
+            
+        
+
+        circle_marker_f27097799b7c652ce0ee4ae43883a51c.bindPopup(popup_ddfa1c4de983c77ff4187af18c427bc8)
+        ;
+
+        
+    
+    
+            var circle_marker_e6e4092d00cd8219a6b230b743ea737e = L.circleMarker(
+                [-20.4, -54.6],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_0e67a182af0475322cbc8c975adf2ce6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_543519f2c17991d49ea4b4f7b1f729c9 = $(`<div id="html_543519f2c17991d49ea4b4f7b1f729c9" style="width: 100.0%; height: 100.0%;"><b>MATO GROSSO DO SUL</b><br>Região: Centro-Oeste<br>Pré-natal: 46.8%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_0e67a182af0475322cbc8c975adf2ce6.setContent(html_543519f2c17991d49ea4b4f7b1f729c9);
+            
+        
+
+        circle_marker_e6e4092d00cd8219a6b230b743ea737e.bindPopup(popup_0e67a182af0475322cbc8c975adf2ce6)
+        ;
+
+        
+    
+    
+            var circle_marker_b96cc025b0d0df7d51d280e803947810 = L.circleMarker(
+                [-7.7, -64.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_dce1cf0cbdb915a59bc8f1be1d23ac6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba86fcfd1b3a876ff653a6a4705ddbd2 = $(`<div id="html_ba86fcfd1b3a876ff653a6a4705ddbd2" style="width: 100.0%; height: 100.0%;"><b>MÉDIO RIO PURUS</b><br>Região: Norte<br>Pré-natal: 64.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_dce1cf0cbdb915a59bc8f1be1d23ac6a.setContent(html_ba86fcfd1b3a876ff653a6a4705ddbd2);
+            
+        
+
+        circle_marker_b96cc025b0d0df7d51d280e803947810.bindPopup(popup_dce1cf0cbdb915a59bc8f1be1d23ac6a)
+        ;
+
+        
+    
+    
+            var circle_marker_d85cbfe706fbccaa5a1d1d1e8a15d4fa = L.circleMarker(
+                [-3.6, -65.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_ecea8d8a1666fe495b5357d1f22f1174 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22e4372c1c29f02a6fe5629e135cca0b = $(`<div id="html_22e4372c1c29f02a6fe5629e135cca0b" style="width: 100.0%; height: 100.0%;"><b>MÉDIO RIO SOLIMÕES E AFLUENTES</b><br>Região: Norte<br>Pré-natal: 52.3%<br>Ultrassom: 0.1%</div>`)[0];
+                popup_ecea8d8a1666fe495b5357d1f22f1174.setContent(html_22e4372c1c29f02a6fe5629e135cca0b);
+            
+        
+
+        circle_marker_d85cbfe706fbccaa5a1d1d1e8a15d4fa.bindPopup(popup_ecea8d8a1666fe495b5357d1f22f1174)
+        ;
+
+        
+    
+    
+            var circle_marker_ed2de81ec6d6259c0f9cdb76894de35a = L.circleMarker(
+                [-18.8, -41.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_8a386ce38b02e0626ea05dff1b95ad17 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a8e847122f02f2adc153f6c068ba269 = $(`<div id="html_6a8e847122f02f2adc153f6c068ba269" style="width: 100.0%; height: 100.0%;"><b>MINAS GERAIS E ESPÍRITO SANTO</b><br>Região: Sudeste<br>Pré-natal: 70.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_8a386ce38b02e0626ea05dff1b95ad17.setContent(html_6a8e847122f02f2adc153f6c068ba269);
+            
+        
+
+        circle_marker_ed2de81ec6d6259c0f9cdb76894de35a.bindPopup(popup_8a386ce38b02e0626ea05dff1b95ad17)
+        ;
+
+        
+    
+    
+            var circle_marker_7a599d6099d76721c20559d800b731c6 = L.circleMarker(
+                [-2.6, -56.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_fe071777e17c1fc8f1652df20db2c7f6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2978b6dae0a0fc2a020301b570d28024 = $(`<div id="html_2978b6dae0a0fc2a020301b570d28024" style="width: 100.0%; height: 100.0%;"><b>PARINTINS</b><br>Região: Norte<br>Pré-natal: 69.6%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_fe071777e17c1fc8f1652df20db2c7f6.setContent(html_2978b6dae0a0fc2a020301b570d28024);
+            
+        
+
+        circle_marker_7a599d6099d76721c20559d800b731c6.bindPopup(popup_fe071777e17c1fc8f1652df20db2c7f6)
+        ;
+
+        
+    
+    
+            var circle_marker_3e2c17a52cd4a7cfaf55e70200195936 = L.circleMarker(
+                [-8.0, -34.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_99644529cfa547bea75595ed1c426057 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b3338f9312ab2ec58a318a8527430f0 = $(`<div id="html_7b3338f9312ab2ec58a318a8527430f0" style="width: 100.0%; height: 100.0%;"><b>PERNAMBUCO</b><br>Região: Nordeste<br>Pré-natal: 85.0%<br>Ultrassom: 1.2%</div>`)[0];
+                popup_99644529cfa547bea75595ed1c426057.setContent(html_7b3338f9312ab2ec58a318a8527430f0);
+            
+        
+
+        circle_marker_3e2c17a52cd4a7cfaf55e70200195936.bindPopup(popup_99644529cfa547bea75595ed1c426057)
+        ;
+
+        
+    
+    
+            var circle_marker_90e172f1962a116697907cf6ec1a8362 = L.circleMarker(
+                [-8.8, -63.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_f68f85e3a61b33132bb13330150fa866 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24aeec82a92f6b584a33d7b681134df6 = $(`<div id="html_24aeec82a92f6b584a33d7b681134df6" style="width: 100.0%; height: 100.0%;"><b>PORTO VELHO</b><br>Região: Norte<br>Pré-natal: 78.8%<br>Ultrassom: 10.6%</div>`)[0];
+                popup_f68f85e3a61b33132bb13330150fa866.setContent(html_24aeec82a92f6b584a33d7b681134df6);
+            
+        
+
+        circle_marker_90e172f1962a116697907cf6ec1a8362.bindPopup(popup_f68f85e3a61b33132bb13330150fa866)
+        ;
+
+        
+    
+    
+            var circle_marker_c25ebb724dd062d83b4df0421740bf87 = L.circleMarker(
+                [-6.6, -34.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_433c2e398194b022f92bcd993ca51500 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_406316bd2e71ea0e85823391570ba479 = $(`<div id="html_406316bd2e71ea0e85823391570ba479" style="width: 100.0%; height: 100.0%;"><b>POTIGUARA</b><br>Região: Nordeste<br>Pré-natal: 83.3%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_433c2e398194b022f92bcd993ca51500.setContent(html_406316bd2e71ea0e85823391570ba479);
+            
+        
+
+        circle_marker_c25ebb724dd062d83b4df0421740bf87.bindPopup(popup_433c2e398194b022f92bcd993ca51500)
+        ;
+
+        
+    
+    
+            var circle_marker_ed7c2f3900a25bf000c20eaf6de3d293 = L.circleMarker(
+                [-4.2, -55.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_9aac08c589b3b4c150a50383dca797e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1cc24562bf7c288f70cb36242f3f9c4 = $(`<div id="html_c1cc24562bf7c288f70cb36242f3f9c4" style="width: 100.0%; height: 100.0%;"><b>RIO TAPAJÓS</b><br>Região: Norte<br>Pré-natal: 39.3%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_9aac08c589b3b4c150a50383dca797e8.setContent(html_c1cc24562bf7c288f70cb36242f3f9c4);
+            
+        
+
+        circle_marker_ed7c2f3900a25bf000c20eaf6de3d293.bindPopup(popup_9aac08c589b3b4c150a50383dca797e8)
+        ;
+
+        
+    
+    
+            var circle_marker_c3b8c01bf2a3a6b806b078c777287a75 = L.circleMarker(
+                [-10.2, -48.3],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_837ead45e65bc93f4d018d18dd6d14a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4ef186fe1bf5efc92f8e73ab9650f82 = $(`<div id="html_b4ef186fe1bf5efc92f8e73ab9650f82" style="width: 100.0%; height: 100.0%;"><b>TOCANTINS</b><br>Região: Norte<br>Pré-natal: 61.7%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_837ead45e65bc93f4d018d18dd6d14a1.setContent(html_b4ef186fe1bf5efc92f8e73ab9650f82);
+            
+        
+
+        circle_marker_c3b8c01bf2a3a6b806b078c777287a75.bindPopup(popup_837ead45e65bc93f4d018d18dd6d14a1)
+        ;
+
+        
+    
+    
+            var circle_marker_b06e3a786d1cfe96446b439dd6c3d777 = L.circleMarker(
+                [-12.7, -60.1],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_ec08a437c28b0b7224512d1c0bfae98b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb722611d8acccded4956c68e7949c3e = $(`<div id="html_eb722611d8acccded4956c68e7949c3e" style="width: 100.0%; height: 100.0%;"><b>VILHENA</b><br>Região: Norte<br>Pré-natal: 89.0%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_ec08a437c28b0b7224512d1c0bfae98b.setContent(html_eb722611d8acccded4956c68e7949c3e);
+            
+        
+
+        circle_marker_b06e3a786d1cfe96446b439dd6c3d777.bindPopup(popup_ec08a437c28b0b7224512d1c0bfae98b)
+        ;
+
+        
+    
+    
+            var circle_marker_cc6cf2a97a24e35ea2884dbe660377b5 = L.circleMarker(
+                [-14.5, -52.2],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_8f46f04c35a164883ec755a81c9ea476 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_29929781459bc8bcaead6d1f38669064 = $(`<div id="html_29929781459bc8bcaead6d1f38669064" style="width: 100.0%; height: 100.0%;"><b>XAVANTE</b><br>Região: Centro-Oeste<br>Pré-natal: 46.4%<br>Ultrassom: 0.4%</div>`)[0];
+                popup_8f46f04c35a164883ec755a81c9ea476.setContent(html_29929781459bc8bcaead6d1f38669064);
+            
+        
+
+        circle_marker_cc6cf2a97a24e35ea2884dbe660377b5.bindPopup(popup_8f46f04c35a164883ec755a81c9ea476)
+        ;
+
+        
+    
+    
+            var circle_marker_aa1101f25f1b76250eb528ea1aa38c7b = L.circleMarker(
+                [-11.0, -52.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_9affc605bf3472f7994117abf7f5fac3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_73a0ec3ab69eb4d420142012703aba15 = $(`<div id="html_73a0ec3ab69eb4d420142012703aba15" style="width: 100.0%; height: 100.0%;"><b>XINGU</b><br>Região: Centro-Oeste<br>Pré-natal: 34.3%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_9affc605bf3472f7994117abf7f5fac3.setContent(html_73a0ec3ab69eb4d420142012703aba15);
+            
+        
+
+        circle_marker_aa1101f25f1b76250eb528ea1aa38c7b.bindPopup(popup_9affc605bf3472f7994117abf7f5fac3)
+        ;
+
+        
+    
+    
+            var circle_marker_cb39c1e76458f4282445c21f00d232ec = L.circleMarker(
+                [3.2, -64.7],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_bd3ad6d87a3c9ff13edbb8cc9683086c);
+        
+    
+        var popup_0e9c5d092dff4c6f7f2a7a7ee05986f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f6cfbbf10d799e7805b16d6b2a4a8ff = $(`<div id="html_4f6cfbbf10d799e7805b16d6b2a4a8ff" style="width: 100.0%; height: 100.0%;"><b>YANOMAMI</b><br>Região: Norte<br>Pré-natal: 10.2%<br>Ultrassom: 0.0%</div>`)[0];
+                popup_0e9c5d092dff4c6f7f2a7a7ee05986f9.setContent(html_4f6cfbbf10d799e7805b16d6b2a4a8ff);
+            
+        
+
+        circle_marker_cb39c1e76458f4282445c21f00d232ec.bindPopup(popup_0e9c5d092dff4c6f7f2a7a7ee05986f9)
+        ;
+
+        
+    
+</script>
+</html>
