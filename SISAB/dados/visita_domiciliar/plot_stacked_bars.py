@@ -21,21 +21,21 @@ idosos = df_plot['Percentual Idosos']
 criancas = df_plot['Percentual Crianças']
 adultos = df_plot['Percentual Adultos']
 
-plt.bar(anos, idosos, label='Idosos (60 anos ou mais)', color='#114354')
-plt.bar(anos, criancas, bottom=idosos, label='Crianças (0 até 14 anos)', color='#6c757d')
-plt.bar(anos, adultos, bottom=idosos + criancas, label='Adultos (15 até 59 anos)', color='#28a745')
+plt.bar(anos, criancas, label='Crianças (0 até 14 anos)', color='#6c757d')
+plt.bar(anos, adultos, bottom=criancas, label='Adultos (15 até 59 anos)', color='#28a745')
+plt.bar(anos, idosos, bottom=criancas + adultos, label='Idosos (60 anos ou mais)', color='#114354')
 
 for i, ano in enumerate(anos):
-    plt.text(ano, idosos[i]/2, f"{idosos[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-    plt.text(ano, idosos[i] + criancas[i]/2, f"{criancas[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
-    plt.text(ano, idosos[i] + criancas[i] + adultos[i]/2, f"{adultos[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+    plt.text(ano, criancas[i]/2, f"{criancas[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+    plt.text(ano, criancas[i] + adultos[i]/2, f"{adultos[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
+    plt.text(ano, criancas[i] + adultos[i] + idosos[i]/2, f"{idosos[i]:.1f}%", ha='center', va='center', fontsize=8, color='white', fontweight='bold')
 
 plt.title('Percentual de visitas domiciliares por grupo etário no SISAB')
 plt.xlabel('Ano')
 plt.ylabel('Percentual (%)')
-plt.legend()
+plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), fancybox=False, shadow=False, frameon=False, ncol=3)
 
-plt.subplots_adjust(bottom=0.25)
+plt.subplots_adjust(bottom=0.35)
 
 plt.figtext(0.5, 0.15, 'Nota: Os dados de 2025 são parciais (até julho).',
             ha='center', fontsize=10)
