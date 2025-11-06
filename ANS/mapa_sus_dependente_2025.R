@@ -27,8 +27,8 @@ ggplot(mapa_dados) +
                 fill = "white", alpha = 0.8, label.r = unit(0.15, "lines")) +
   scale_fill_gradientn(colors = c("#FFD700", "#FF8C00", "#FF0000", "#B22222", "#8B0000"),
                        na.value = "grey80",
-                       name = "Percentual SUS-Dependente (%)") +
-  labs(title = "Percentual da População SUS-Dependente por Estado (2025) - Pessoas Idosas",
+                       name = "Percentual(%)") +
+  labs(title = "Percentual da população idosa que depende exclusivamente do SUS por UF",
        caption = "Fonte: ANS e IBGE") +
   theme_minimal() +
   theme(legend.position = "bottom",
