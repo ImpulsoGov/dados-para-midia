@@ -1,0 +1,401 @@
+latitude,longitude,distancia_km,municipio,uf
+-0.11909,-67.084,784,São Gabriel da Cachoeira,AM
+-1.88237,-66.9291,780,Japurá,AM
+-2.86582,-67.7919,757,Tonantins,AM
+-2.75814,-66.7595,739,Jutaí,AM
+-3.09544,-67.9463,727,Santo Antônio do Içá,AM
+-3.37455,-68.2005,685,Amaturá,AM
+-2.52342,-66.0942,678,Fonte Boa,AM
+-3.48438,-66.0718,634,Juruá,AM
+-1.85313,-65.573,633,Maraã,AM
+-3.47292,-68.9646,618,São Paulo de Olivença,AM
+-7.14347,-55.3786,616,Novo Progresso,PA
+-0.410824,-65.0092,601,Santa Isabel do Rio Negro,AM
+-4.10028,-54.9092,578,Rurópolis,PA
+-2.99609,-65.1133,566,Uarini,AM
+-13.4823,-61.0471,559,Pimenteiras do Oeste,RO
+-4.88161,-66.9086,544,Carauari,AM
+-12.9551,-60.8947,541,Corumbiara,RO
+-3.86813,-54.2124,536,Placas,PA
+-12.5611,-60.8877,536,Chupinguaia,RO
+-13.187,-60.8168,532,Cerejeiras,RO
+-3.22727,-64.8007,531,Alvarães,AM
+-3.60841,-55.3199,525,Aveiro,PA
+-2.63609,-54.9374,523,Belterra,PA
+-3.36822,-64.7193,522,Tefé,AM
+-9.46121,-59.2252,519,Colniza,MT
+-1.90107,-55.5208,518,Óbidos,PA
+-13.4945,-60.552,505,Cabixi,RO
+-13.1174,-60.5454,503,Colorado do Oeste,RO
+-10.1723,-59.4568,503,Aripuanã,MT
+-2.6822,-54.6425,499,Mojuí dos Campos,PA
+-3.71519,-53.7396,499,Uruará,PA
+-1.88775,-55.1168,498,Curuá,PA
+-2.43849,-54.6996,488,Santarém,PA
+-1.75989,-55.8579,487,Oriximiná,PA
+-4.2416,-69.9383,483,Tabatinga,AM
+-4.57347,-55.9429,481,Trairão,PA
+-4.2667,-55.9926,465,Itaituba,PA
+-4.37768,-70.0342,465,Benjamin Constant,AM
+-1.94623,-54.7384,464,Alenquer,PA
+-12.7502,-60.1488,461,Vilhena,RO
+-12.1754,-61.6032,455,Parecis,RO
+-4.37055,-70.1967,454,Atalaia do Norte,AM
+-7.19409,-59.896,453,Apuí,AM
+-2.16347,-56.0889,450,Juruti,PA
+-9.85656,-58.4192,449,Cotriguaçu,MT
+-11.8295,-61.3153,443,Primavera de Rondônia,RO
+-11.5266,-61.0252,440,Espigão D'Oeste,RO
+-11.672,-61.198,438,Pimenta Bueno,RO
+-12.132,-61.835,438,Alto Alegre dos Parecis,RO
+-11.9023,-61.5026,437,São Felipe D'Oeste,RO
+-3.44637,-52.8875,437,Medicilândia,PA
+3.84074,-51.8331,432,Oiapoque,AP
+-9.53981,-57.4587,426,Apiacás,MT
+-6.21469,-57.7544,426,Jacareacanga,PA
+-13.6614,-59.7848,425,Comodoro,MT
+-11.9074,-61.7777,420,Santa Luzia D'Oeste,RO
+-9.01241,-42.6987,420,São Raimundo Nonato,PI
+-15.0068,-59.9504,418,Vila Bela da Santíssima Trindade,MT
+-10.7982,-52.7486,414,São José do Xingu,MT
+-9.16463,-42.5496,413,São Lourenço do Piauí,PI
+-9.84977,-57.8139,413,Nova Bandeirantes,MT
+-9.33939,-42.4348,413,Dirceu Arcoverde,PI
+-12.4367,-64.228,410,Costa Marques,RO
+-11.9283,-61.9953,409,Alta Floresta D'Oeste,RO
+-2.10443,-56.4877,408,Terra Santa,PA
+-9.05797,-43.0076,406,São Braz do Piauí,PI
+-10.3178,-58.3592,405,Juruena,MT
+-3.29792,-52.534,405,Brasil Novo,PA
+-9.1605,-42.8865,404,Bonfim do Piauí,PI
+-11.7271,-61.7714,404,Rolim de Moura,RO
+-10.1532,-52.3953,403,Santa Cruz do Xingu,MT
+-1.99768,-54.0724,403,Monte Alegre,PA
+-0.983373,-62.9311,401,Barcelos,AM
+-9.61944,-42.0848,400,Remanso,BA
+-11.4343,-61.4562,400,Cacoal,RO
+-13.5515,-52.2705,397,Canarana,MT
+-14.4727,-59.6001,397,Nova Lacerda,MT
+-6.43852,-68.2437,396,Itamarati,AM
+-8.81397,-42.5232,393,Coronel José Dias,PI
+-9.74138,-41.8786,393,Sento Sé,BA
+-9.238,-42.9692,392,Várzea Branca,PI
+-9.18564,-43.0494,392,Anísio de Abreu,PI
+-14.5381,-59.5444,389,Conquista D'Oeste,MT
+-8.73076,-44.2466,388,Palmeira do Piauí,PI
+-11.6961,-61.9951,387,Novo Horizonte do Oeste,RO
+-8.42418,-43.777,386,Alvorada do Gurguéia,PI
+-13.9486,-51.8002,386,Nova Nazaré,MT
+-9.21992,-43.1337,384,Jurema,PI
+-9.99998,-57.5261,383,Nova Monte Verde,MT
+-9.65835,-56.4786,383,Paranaíta,MT
+-3.20407,-52.21,382,Altamira,PA
+-9.48342,-42.7912,381,Fartura do Piauí,PI
+-2.20793,-56.7112,381,Nhamundá,AM
+-2.16805,-56.7405,379,Faro,PA
+-8.82273,-44.223,379,Cristino Castro,PI
+-14.051,-52.1601,378,Água Boa,MT
+-3.8396,-32.4107,378,Fernando de Noronha,PE
+-11.196,-61.5174,376,Ministro Andreazza,RO
+-13.7242,-59.2858,373,Campos de Júlio,MT
+-11.7247,-62.3127,373,Nova Brasilândia D'Oeste,RO
+-2.63741,-56.729,370,Parintins,AM
+-8.50736,-42.4264,369,João Costa,PI
+-8.40937,-42.9211,369,Tamboril do Piauí,PI
+-12.052,-63.568,368,São Francisco do Guaporé,RO
+-8.9488,-44.1296,368,Santa Luz,PI
+-9.27933,-43.329,367,Caracol,PI
+-11.4253,-61.9482,365,Castanheiras,RO
+-11.1251,-58.6081,364,Castanheira,MT
+-9.52221,-43.0126,363,Campo Alegre de Lourdes,BA
+-4.09412,-63.1441,363,Coari,AM
+-10.0051,-42.4936,362,Pilão Arcado,BA
+-11.3728,-58.7483,361,Juína,MT
+-9.96218,-54.9121,361,Guarantã do Norte,MT
+-8.1837,-43.794,361,Colônia do Gurguéia,PI
+-5.62085,-63.1808,358,Tapauá,AM
+-9.86674,-56.0867,355,Alta Floresta,MT
+-19.0077,-57.651,355,Corumbá,MS
+-9.01175,-44.4062,354,Currais,PI
+-9.95616,-55.2029,353,Novo Mundo,MT
+-30.2029,-57.5497,353,Barra do Quaraí,RS
+-10.8376,-61.4697,352,Rondolândia,MT
+-12.6093,-52.1821,352,Querência,MT
+-11.8055,-63.0182,352,Seringueiras,RO
+-11.0431,-41.9702,352,Jussara,BA
+-11.6953,-62.7192,351,São Miguel do Guaporé,RO
+-15.2219,-59.3435,351,Pontes e Lacerda,MT
+-9.00516,-41.9697,350,Dom Inocêncio,PI
+-19.0089,-57.5973,349,Ladário,MS
+-9.07124,-44.359,349,Bom Jesus,PI
+-8.09629,-43.6705,348,Eliseu Martins,PI
+-11.169,-61.8986,346,Presidente Médici,RO
+-8.20314,-42.8229,346,Brejo do Piauí,PI
+-8.35466,-42.2559,346,São João do Piauí,PI
+-9.94912,-55.8417,346,Carlinda,MT
+-8.01234,-43.8755,346,Manoel Emídio,PI
+-2.87922,-52.0088,340,Vitória do Xingu,PA
+-11.2175,-41.8843,338,São Gabriel,BA
+-9.38647,-43.6943,338,Guaribas,PI
+-11.3463,-62.2847,338,Alvorada D'Oeste,RO
+-11.2923,-41.9843,337,Presidente Dutra,BA
+-7.84903,-45.219,337,Baixa Grande do Ribeiro,PI
+-1.798,-53.4779,337,Prainha,PA
+-10.1821,-54.9467,336,Matupá,MT
+-8.1111,-42.9517,336,Canto do Buriti,PI
+-8.06807,-42.2847,336,Pedro Laurentino,PI
+-11.1376,-42.1116,334,Central,BA
+-11.3033,-41.8535,332,Irecê,BA
+-10.2262,-54.9794,331,Peixoto de Azevedo,MT
+-5.80462,-61.2895,330,Manicoré,AM
+-2.79886,-57.0679,330,Barreirinha,AM
+-7.55651,-45.2447,329,Ribeiro Gonçalves,PI
+-6.65677,-69.8662,328,Eirunepé,AM
+-12.9367,-51.8244,328,Ribeirão Cascalheira,MT
+-11.3851,-41.8286,327,Lapão,BA
+-11.3394,-42.1354,324,Uibaí,BA
+-7.96059,-43.2284,322,Pavussu,PI
+-21.6981,-57.8836,322,Porto Murtinho,MS
+-15.286,-59.0683,320,Vale de São Domingos,MT
+-10.8777,-61.9322,319,Ji-Paraná,RO
+-29.7614,-57.0853,319,Uruguaiana,RS
+-14.6771,-52.3502,316,Nova Xavantina,MT
+-8.09707,-42.0471,315,Nova Santa Rita,PI
+-18.3067,-51.9586,314,Serranópolis,GO
+-3.46985,-51.2003,313,Anapu,PA
+-11.1261,-62.3639,312,Urupá,RO
+-7.08111,-45.1451,311,Loreto,MA
+-11.5414,-41.9748,311,Ibititá,BA
+-7.86773,-42.4922,311,Socorro do Piauí,PI
+-10.312,-55.4061,310,Nova Guarita,MT
+-12.9892,-58.7645,310,Sapezal,MT
+-11.3486,-41.6548,310,João Dourado,BA
+-7.63338,-43.9498,310,Bertolínia,PI
+-11.0147,-42.3997,310,Itaguaçu da Bahia,BA
+-11.0556,-51.8209,309,Canabrava do Norte,MT
+-18.4073,-52.549,309,Chapadão do Céu,GO
+-7.56803,-44.06,308,Sebastião Leal,PI
+-10.7339,-41.3234,308,Umburanas,BA
+-14.3903,-51.0001,308,Cocalinho,MT
+-7.85508,-42.8248,307,Pajeú do Piauí,PI
+-8.49655,-41.814,307,Capitão Gervásio Oliveira,PI
+-13.2443,-53.0809,306,Gaúcha do Norte,MT
+-7.68821,-43.7233,306,Canavieira,PI
+-8.4662,-45.7536,305,Tasso Fragoso,MA
+-7.77375,-42.2474,304,Paes Landim,PI
+-8.38236,-41.8344,304,Campo Alegre do Fidalgo,PI
+-11.6858,-41.7677,302,Canarana,BA
+-7.78029,-43.1369,301,Rio Grande do Piauí,PI
+-7.78793,-42.918,300,Flores do Piauí,PI
+-10.9056,-62.242,300,Teixeirópolis,RO
+-9.47937,-44.5811,300,Redenção do Gurguéia,PI
+-15.3342,-58.8723,299,Jauru,MT
+-11.6438,-42.0195,298,Ibipeba,BA
+-10.6437,-51.5699,298,Confresa,MT
+-9.44652,-70.4902,298,Santa Rosa do Purus,AC
+-17.5258,-52.065,298,Perolândia,GO
+-7.13447,-45.3515,296,Sambaíba,MA
+-9.11228,-45.9116,296,Santa Filomena,PI
+-10.8761,-51.6357,296,Porto Alegre do Norte,MT
+-7.23944,-44.5577,295,Uruçuí,PI
+-9.71891,-43.9072,295,Morro Cabeça no Tempo,PI
+-9.10273,-45.9303,294,Alto Parnaíba,MA
+-15.7291,-51.8341,294,Araguaiana,MT
+-10.0137,-51.1186,294,Vila Rica,MT
+-7.85294,-41.9075,294,Simplício Mendes,PI
+-7.07535,-44.8092,293,São Félix de Balsas,MA
+-7.98809,-41.8675,293,Bela Vista do Piauí,PI
+-7.43789,-70.0281,293,Envira,AM
+-17.8784,-51.7204,293,Jataí,GO
+-7.21037,-44.5577,292,Benedito Leite,MA
+-10.517,-55.231,292,Terra Nova do Norte,MT
+-9.45024,-40.8145,291,Sobradinho,BA
+-11.7605,-41.9054,290,Barro Alto,BA
+-7.69028,-42.7128,289,Ribeira do Piauí,PI
+-14.0957,-50.33,289,Nova Crixás,GO
+-10.823,-42.7245,288,Xique-Xique,BA
+-7.6593,-41.8775,287,Campinas do Piauí,PI
+-14.5162,-52.893,286,Campinápolis,MT
+-11.029,-62.6696,286,Mirante da Serra,RO
+-11.4429,-41.439,284,América Dourada,BA
+-15.4439,-58.7391,284,Figueirópolis D'Oeste,MT
+-17.3364,-39.2227,283,Prado,BA
+-8.23599,-41.6873,283,São Francisco de Assis do Piauí,PI
+-7.59713,-42.3676,283,São Miguel do Fidalgo,PI
+-10.7167,-62.2565,282,Ouro Preto do Oeste,RO
+-11.4342,-42.5077,282,Gentio do Ouro,BA
+-10.9068,-62.5564,280,Nova União,RO
+-7.59989,-43.0249,280,Itaueira,PI
+-11.6914,-41.4688,280,Cafarnaum,BA
+-18.788,-52.6263,279,Chapadão do Sul,MS
+-11.81,-42.059,279,Barra do Mendes,BA
+-8.47673,-41.5342,279,Lagoa do Barro do Piauí,PI
+-10.558,-55.953,278,Nova Canaã do Norte,MT
+-9.16408,-40.974,277,Casa Nova,BA
+-7.42072,-41.9063,277,Santo Inácio do Piauí,PI
+-7.02183,-45.4809,277,São Raimundo das Mangabeiras,MA
+-7.21276,-44.1889,277,Antônio Almeida,PI
+-14.9166,-51.075,276,Aruanã,GO
+2.50475,-50.9512,275,Calçoene,AP
+-7.46682,-41.7883,275,Floresta do Piauí,PI
+-11.0463,-54.4377,275,Marcelândia,MT
+-10.7889,-65.3296,275,Guajará-Mirim,RO
+-16.4258,-51.8235,274,Piranhas,GO
+-16.9539,-51.8091,272,Caiapônia,GO
+-10.9578,-41.0756,272,Ourolândia,BA
+-8.57064,-41.4106,272,Queimada Nova,PI
+-7.25922,-43.9364,272,Landri Sales,PI
+-17.5195,-39.2036,271,Alcobaça,BA
+-2.97409,-57.5873,271,Boa Vista do Ramos,AM
+-9.41622,-40.5033,270,Juazeiro,BA
+-12.1706,-51.5032,269,Bom Jesus do Araguaia,MT
+-10.4465,-62.1352,269,Vale do Paraíso,RO
+-4.31242,-51.5764,269,Senador José Porfírio,PA
+-11.9648,-41.6374,269,Mulungu do Morro,BA
+-9.75364,-45.3037,268,Monte Alegre do Piauí,PI
+-7.71311,-66.992,268,Pauini,AM
+-7.48554,-42.5672,267,São José do Peixe,PI
+-9.38866,-40.5027,267,Petrolina,PE
+-18.2941,-51.1516,267,Aparecida do Rio Doce,GO
+-15.4921,-58.5802,266,Indiavaí,MT
+-11.2639,-57.5244,266,Juara,MT
+-7.73597,-41.6735,266,Isaías Coelho,PI
+-17.2183,-40.0974,265,Vereda,BA
+-16.2063,-52.1728,265,Bom Jardim de Goiás,GO
+-15.8955,-52.2372,264,Aragarças,GO
+-18.5432,-53.1287,264,Costa Rica,MS
+-8.17054,-70.351,263,Feijó,AC
+-13.7729,-50.2814,263,Mundo Novo,GO
+-15.8804,-52.264,262,Barra do Garças,MT
+-11.8219,-42.6179,261,Ipupiara,BA
+-10.2569,-40.1999,261,Jaguarari,BA
+-7.87638,-41.5942,261,Conceição do Canindé,PI
+-18.9607,-51.9232,261,Aporé,GO
+-2.52936,-57.7538,260,Urucará,AM
+-9.83001,-45.3423,260,Gilbués,PI
+-15.0743,-58.4585,260,Reserva do Cabaçal,MT
+-6.81471,-44.6509,259,São Domingos do Azeitão,MA
+-7.1785,-41.7609,259,Santa Cruz do Piauí,PI
+-3.39289,-57.7067,259,Maués,AM
+-15.2428,-51.1602,259,Britânia,GO
+-12.088,-41.6427,258,Souto Soares,BA
+-7.23151,-41.905,258,Wall Ferraz,PI
+-12.0896,-51.4025,257,Serra Nova Dourada,MT
+-13.9421,-46.4868,256,Guarani de Goiás,GO
+-10.8651,-55.1872,256,Nova Santa Helena,MT
+-7.11565,-43.8926,255,Marcos Parente,PI
+-7.10303,-41.7,255,Paquetá,PI
+-15.857,-58.4619,255,Porto Esperidião,MT
+-17.1642,-40.3321,255,Itanhém,BA
+-6.52582,-64.3953,254,Canutama,AM
+-10.8135,-55.461,254,Colíder,MT
+-15.9274,-52.3273,254,Pontal do Araguaia,MT
+-13.7388,-46.8734,254,Nova Roma,GO
+-17.5654,-52.5537,253,Mineiros,GO
+-11.6732,-51.3883,253,Alto Boa Vista,MT
+-14.0859,-46.3704,252,Posse,GO
+-17.0378,-39.5386,252,Itamaraju,BA
+-9.9296,-45.4702,252,Barreiras do Piauí,PI
+-17.7398,-46.1715,251,João Pinheiro,MG
+-11.5488,-41.1565,251,Morro do Chapéu,BA
+-10.1345,-43.9563,251,Avelino Lopes,PI
+-6.96423,-44.1837,250,Porto Alegre do Piauí,PI
+-13.621,-46.7415,250,São Domingos,GO
+-14.2835,-49.9201,250,Uirapuru,GO
+-18.3315,-45.8265,249,São Gonçalo do Abaeté,MG
+-11.9915,-42.6326,249,Brotas de Macaúbas,BA
+-17.7268,-39.2597,249,Caravelas,BA
+-16.7188,-52.3189,249,Doverlândia,GO
+-30.384,-56.4483,248,Quaraí,RS
+-12.1474,-57.9833,247,Brasnorte,MT
+-7.22651,-42.1756,247,Colônia do Piauí,PI
+-14.7457,-50.5713,247,Mozarlândia,GO
+-10.0326,-44.3002,247,Curimatá,PI
+-16.3837,-51.5563,247,Arenópolis,GO
+-2.55915,-57.8731,247,São Sebastião do Uatumã,AM
+-4.334,-45.581,246,Brejo de Areia,MA
+-17.059,-40.58,246,Bertópolis,MG
+-17.3707,-40.2238,246,Medeiros Neto,BA
+-3.5503,-46.2507,246,São João do Carú,MA
+-7.24502,-41.5325,245,Aroeiras do Itaim,PI
+-6.94696,-41.5178,245,Santana do Piauí,PI
+-13.9236,-49.2962,245,Amaralina,GO
+-11.9668,-41.2647,245,Bonito,BA
+-14.9054,-53.0194,245,Novo São Joaquim,MT
+-10.5105,-40.32,245,Campo Formoso,BA
+-18.3741,-46.0313,244,Varjão de Minas,MG
+-6.95332,-41.6396,244,Dom Expedito Lopes,PI
+-12.2429,-41.6155,244,Iraquara,BA
+-14.2442,-49.6528,244,Campos Verdes,GO
+-11.2557,-40.9432,243,Várzea Nova,BA
+-10.4318,-62.4788,242,Jaru,RO
+-14.4823,-46.1165,242,Mambaí,GO
+-17.5399,-39.74,242,Teixeira de Freitas,BA
+-7.53214,-46.0372,242,Balsas,MA
+-10.61,-62.7371,242,Governador Jorge Teixeira,RO
+-6.87194,-41.4731,242,São José do Piauí,PI
+-1.52904,-52.5788,242,Almeirim,PA
+0.884203,-59.6959,242,Caroebe,RR
+-16.7392,-51.5309,241,Palestina de Goiás,GO
+-11.4089,-57.3488,241,Novo Horizonte do Norte,MT
+-10.4077,-65.3346,241,Nova Mamoré,RO
+-7.2463,-42.541,241,São Francisco do Piauí,PI
+-29.1311,-56.5515,241,Itaqui,RS
+-7.59748,-41.4673,241,Vera Mendes,PI
+-15.4641,-58.3425,241,Araputanga,MT
+-10.4594,-40.1865,241,Senhor do Bonfim,BA
+-9.3281,-50.35,241,Santana do Araguaia,PA
+-3.83053,-62.0658,240,Codajás,AM
+-18.5594,-51.1328,240,Caçu,GO
+-13.2552,-46.8928,240,Monte Alegre de Goiás,GO
+-16.0059,-51.3979,240,Montes Claros de Goiás,GO
+-3.83542,-50.6399,240,Pacajá,PA
+-7.44336,-41.4687,239,Itainópolis,PI
+-6.64254,-51.9904,239,São Félix do Xingu,PA
+-11.5308,-54.3616,239,União do Sul,MT
+-7.07721,-41.467,239,Picos,PI
+-13.8665,-49.0716,238,Estrela do Norte,GO
+-15.768,-58.3108,238,Glória D'Oeste,MT
+-14.0148,-49.1777,238,Mara Rosa,GO
+-10.0319,-45.3092,237,São Gonçalo do Gurguéia,PI
+-17.0723,-40.7245,237,Machacalis,MG
+-10.2483,-62.3538,237,Theobroma,RO
+-1.74691,-52.2361,237,Porto de Moz,PA
+-10.5767,-40.2785,236,Antônio Gonçalves,BA
+-11.533,-57.4132,236,Porto dos Gaúchos,MT
+-14.4265,-54.0524,235,Paranatinga,MT
+-7.09128,-43.5033,235,Jerumenha,PI
+-16.9707,-40.6727,235,Santa Helena de Minas,MG
+-19.1179,-51.7313,234,Cassilândia,MS
+-18.7646,-51.3485,234,Itarumã,GO
+-10.3482,-39.8391,234,Andorinha,BA
+-13.7801,-47.2659,233,Teresina de Goiás,GO
+-11.0859,-43.1459,233,Barra,BA
+-4.62806,-45.4531,233,Marajá do Sena,MA
+-14.1011,-46.6335,233,Iaciara,GO
+-16.8488,-40.1641,233,Jucuruçu,BA
+-11.0614,-55.2766,232,Itaúba,MT
+-19.0216,-53.0116,232,Paraíso das Águas,MS
+-13.787,-48.5704,232,Campinaçu,GO
+-14.1978,-49.3378,232,Alto Horizonte,GO
+-14.5604,-46.178,232,Damianópolis,GO
+-9.83325,-39.4794,232,Uauá,BA
+-8.51136,-41.0095,231,Afrânio,PE
+-4.06873,-45.69,231,Santa Luzia,MA
+-17.3554,-52.6799,230,Portelândia,GO
+-17.2548,-40.5779,230,Umburatiba,MG
+-22.011,-57.0277,229,Caracol,MS
+-18.3255,-53.7042,229,Alcinópolis,MS
+-6.94082,-41.8889,229,São João da Varjota,PI
+-7.03687,-41.3767,229,Sussuapara,PI
+-12.4169,-41.7722,229,Seabra,BA
+-6.81203,-41.3415,228,São João da Canabrava,PI
+-14.2868,-49.3872,228,Nova Iguaçu de Goiás,GO
+-10.7433,-40.3675,228,Pindobaçu,BA
+-12.9287,-46.9359,228,Arraias,TO
+-10.961,-40.574,227,Mirangaba,BA
+-16.8691,-41.2473,227,Monte Formoso,MG
+-7.01915,-42.1283,227,Oeiras,PI
+-14.5412,-49.974,227,Crixás,GO
+-13.6329,-49.8106,227,Bonópolis,GO
+-5.12593,-60.3732,227,Novo Aripuanã,AM
